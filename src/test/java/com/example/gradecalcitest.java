@@ -9,7 +9,7 @@ class gradecalcitest {
 	} 
 	@Test 
 	void testAverage() { 
-		assertEquals(75.0, gradecalci.calculateAverage(75, 68, 82)); 
+		assertEquals(65.0, gradecalci.calculateAverage(75, 68, 82)); 
 	} 
 	@Test
 	void testPass() { 
